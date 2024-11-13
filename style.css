@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 100px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+}
+
+.left-text{
+    width: 50%;
+    position: absolute;
+}
+
+.text {
+    max-width: 400px; 
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.text h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.highlight {
+    color: #e63946;
+    font-weight: normal;
+}
+
+.text p {
+    font-size: 1em;
+    margin: 20px 0;
+    color: #666;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e63946;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #d62839;
+}
+
+.image img {
+    width: 218vh; 
+    height: 88vh;
+    
+}
